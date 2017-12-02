@@ -1,0 +1,119 @@
+
+*{
+
+	margin: 0px;
+	padding: 0px;
+}
+
+.wrapper{
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	width: 960px; 
+	background-color: #f4f6f8;
+}
+
+.box{
+	margin: 50px;
+	padding: 20px;
+	width: 320px;
+	background-color: #81b3d2;
+	text-align: center;
+	border-radius: 20px;
+}
+
+.block1{
+	width: 100px;
+	height: 100px;
+	background: yellow;
+	margin: auto;
+}
+
+.files{
+	widows: 350px;
+	height: 200px;
+}
+
+.files__close {
+	widows: 350px; 
+	height: 200px;
+	
+}
+
+#block3{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.block3{
+	border: 2px solid yellow;
+	background-color: yellow;
+	height: 30px;
+	width: 30px;
+	margin: 2px;
+}
+
+.block4{
+		
+	height: 250px;
+	width: 250px;
+	margin: 2px;
+	
+}
+
+.bigImg{
+	height: 200px;
+	width: 250px;
+	margin: 2px;
+	background-image: url(../img/1.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.gallery{
+	height: 50px;
+	width: 250px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.picture{
+	height: 40px;
+	width: 55px;
+	margin: 2px;
+}
+
+
+
+#task5{
+	height: 50px;
+	width: 50px;
+	border: 2px solid yellow;
+	position: relative;
+}
+
+#div5{
+	height: 500px;
+	width: 100px;
+}
+
+.task6{
+	height: 300px;
+	width: 300px;
+	background-color: yellow; 
+	content: '';
+	display: block;
+	clear: both;
+}
+.block6{
+	height: 100px;
+	width: 100px;
+	background-color: blue;
+	border: 2px solid yellow;
+	position: relative;
+	
+}
+
